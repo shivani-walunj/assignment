@@ -1,0 +1,44 @@
+.form-app{
+  border-image: linear-gradient(to right, #9E8BF7, #4F9FEC) 1;
+}
+.form-app-container{
+  @apply max-w-[360px] mx-auto rounded-lg flex flex-col bg-none gap-4 justify-center items-center p-5 ;
+}
+
+.form-app-card{
+  @apply bg-white shadow-md rounded-md p-5 w-full border border-gray-300;
+}
+.form-app-card-heading{
+  @apply text-lg font-[500] pb-4;
+}
+
+
+.form-app-header{
+  @apply flex items-center justify-between w-full my-4;
+}
+
+/* //form-app-header */
+.form-app-header div
+{
+  @apply flex items-center gap-2;
+}
+
+
+.history{
+  @apply px-6 py-2 border rounded-3xl;
+}
+
+.form-save{
+  @apply px-6 py-2 border rounded-3xl font-bold text-white;
+  background:  linear-gradient(to left, #9E8BF7, #4F9FEC) ;
+}
+.form-app-main-heading{
+  @apply text-2xl font-[500] text-left w-full;
+}
+
+.form-app-sub-heading{
+  @apply text-lg font-[300]  flex gap-6 w-full items-center;
+}
+.form-app-sub-heading span{
+  @apply rotate-180  items-center rounded-lg border  px-2 py-2 ;
+}
